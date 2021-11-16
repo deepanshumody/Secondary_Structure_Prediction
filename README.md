@@ -2,7 +2,13 @@
 ## Introduction
 Protein structure prediction is one of the most important problems in bioinformatics and theoretical chemistry. On 30 November 2020, it was announced by the alphafold team at google deepmind that the problem of protein structure prediction has been "solved" by achieving an accuracy of greater than 90% in predicting the protein structure. This project aims to predict the structure of proteins based on the protein's amino acid residues and evolutionary data obtained from PSI-Blast and HHBlits in the form of multiple sequence alignments.
 The two ways to classify a protein in terms of secondary structure are 3-state and 8-state predictions.
-For 3 state prediction the goal is to classify them into either alpha helix, beta sheet or a coil region.
+
+For 3 state prediction the goal is to classify them into the following.
+```
+E = extended strand, participates in β ladder
+H = α-helix
+C = coil (residues which are not in any of the above conformations)
+```
 
 For 8 state prediction the goal is to classify them into the following
 ```
