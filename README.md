@@ -15,7 +15,7 @@ T = hydrogen bonded turn
 S = bend
 _ = loop (any other type)
 ```
-For the scope of this project, the more challenging 8 state prediction has been chosen.
+For the scope of this project, the 3 state prediction has been chosen.
 
 ## Dataset
 Porter5 dataset has been used for the above, which consists of 24 features for each amino acid residue in the protein.
